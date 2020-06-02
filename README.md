@@ -33,6 +33,8 @@ nano /etc/ansible/hosts - lets you edit the ansible hosts file
 
 nano /etc/ansible/ansible.cfg - lets you edit ansible config file
 
+ansible-playbook filebeat-playbook.yml. -the filebeat playbook
+
 YAML PLAYBOOKS
 ansible-playbook /etc/ansible/pentest.yml runs your ansible playbook
 ansible-playbook filebeat-playbook.yml. -the filebeat playbook
@@ -47,6 +49,6 @@ docker start elk - to start the elk container
 
 /etc/filebeat/filebeat-configuration.yml - filebeat config file
 
-ansible-playbook filebeat-playbook.yml. -the filebeat playbook
+
 
 https://go.gliffy.com/go/html5/13298872 - diagram for the VM's
