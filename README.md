@@ -36,7 +36,7 @@ nano /etc/ansible/ansible.cfg - lets you edit ansible config file
 ansible-playbook filebeat-playbook.yml. -the filebeat playbook
 
 YAML PLAYBOOKS
-ansible-playbook /etc/ansible/pentest.yml runs your ansible playbook
+ansible-playbook /etc/ansible/pentest.yml  - runs your ansible playbook
 ansible-playbook filebeat-playbook.yml. -the filebeat playbook
 
 http://40.80.153.121/setup.php - website to view the ansible page
