@@ -28,4 +28,4 @@ docker start elk - to start the elk container
 /etc/filebeat/filebeat-configuration.yml - filebeat config file
 ansible-playbook filebeat-playbook.yml. -the filebeat playbook
 
-https://go.gliffy.com/go/html5/13298872
+https://go.gliffy.com/go/html5/13298872 - diagram for the VM's
