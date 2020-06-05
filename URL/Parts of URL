@@ -1,0 +1,5 @@
+http://example.com/add.asp?ItemID=123&Price=999
+Protocol: HTTP, identifies the protocol used with the get request
+Host Name: example.com. Targets a specific web server fpr the request of web resources.
+Path:add.asp?. Identifies which of the hosts web applications will be used to provide resources to the client
+Parameters:ItemID=123&Price=999. Specifically formatted data that interacts with back-end databases, email and web servers.
