@@ -1,5 +1,13 @@
+Client Side Attacks
 Cross-site scripting(XSS): Allows attackers to inject malicious code into a website in order to intercept user sessions, vandalize websites, steal data and control a user's browser.
 Clickjacking: Tricks users into clicking misleading graphics that will then trigger an exploit. Ex: a button that reads "Download" in large text
 Content Spoofing:Tricks a user into believing that certain website is legitimate. For example, a fake login page that steals your credentials after you submit them
 Drive-by download: Triggers downloads upon visiting a webpage without the users knowledge.
 Phishing (Social Engineering):A form of social engineering that manipulates a user into providing personal confidential information, such as user credentials and bank account information.
+
+Sever-side Attacks
+Website defacement: An attack against a website that alters the appearance and information contained on a website or webpage.
+HTTP response splitting (CRLF injection): A type of web server vulnerability where the server does not properly sanitize input values, such as character returns (CRs) and line feeds (LFs).
+Web cache poisoning: An attack that replaces legitimate cached web pages with malicious content.
+Parameter or URL tampering:An attack that manipulates parameters passed to a web server in a URL
+Path or directory traversal (dot-dot-slash attack): An attack that navigates into senstive files and directories by using dot-dot-slash (../) (as if navigating through directories in a terminal) in the URL.
