@@ -1,0 +1,5 @@
+Cross-site scripting(XSS): Allows attackers to inject malicious code into a website in order to intercept user sessions, vandalize websites, steal data and control a user's browser.
+Clickjacking: Tricks users into clicking misleading graphics that will then trigger an exploit. Ex: a button that reads "Download" in large text
+Content Spoofing:Tricks a user into believing that certain website is legitimate. For example, a fake login page that steals your credentials after you submit them
+Drive-by download: Triggers downloads upon visiting a webpage without the users knowledge.
+Phishing (Social Engineering):A form of social engineering that manipulates a user into providing personal confidential information, such as user credentials and bank account information.
