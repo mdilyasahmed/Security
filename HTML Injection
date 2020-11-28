@@ -1,0 +1,7 @@
+Reflected Injection attack can be performed differently according to the HTTP methods i.e, GET and POST. I would remind, that with POST method data is being sent and with GET method data is being requested.
+Initially attacker can check the source code for the login form and proceeding towards the method used for then appropriate HTML Injection will be carried out
+<div class="test">
+  <from id= "test-login" method="post" action= "#">
+    <input type= text id= test-username class name= "user"
+    placeholder= "Email">
+    <input type= "password" id= "test-password" class name="pass"
